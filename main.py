@@ -1,8 +1,10 @@
+import streamlit as st
 
-  # Code 1: Print numbers from 1 to 25
+st.title("Zama Secure Compute Demo")
+st.write("Printing numbers 1 to 25:")
 for i in range(1, 26):
-    print(i)
+    st.write(i)
 
-# Code 2: Print "Hello World" 5 times
+st.write("Hello World 5 times:")
 for i in range(5):
-    print("Hello World", i+1)
+    st.write([f"Hello World {i+1}" for i in range(5)])
